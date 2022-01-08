@@ -1,0 +1,236 @@
+.head-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 0px 10px;
+    height: 0px;
+}
+
+header {
+    width: 1366px;
+    height: 140px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.first_page {
+    background-size: cover;
+    right: auto;
+    height: 768px;
+    padding: -115px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.top_heading {
+    max-width: 510px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-bottom: 34px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.top_button {
+    width: max-content;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+
+.top_info {
+    padding-top: 115px;
+    /* max-width: 900px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top_text {
+    margin-bottom: 71px;
+    min-width: 400px;
+}
+
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+    max-width: 800px;
+}
+
+body {
+    background-image: url(img/background.svg);
+    background-repeat: no-repeat;
+    background-position: 1400px 330px;
+ }
+
+h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin-top: 64px;
+    margin-bottom: 32px;
+}
+
+.container {
+    padding: 0px 114px;
+    min-width: 372px;
+    display: flex;
+    flex-direction: column;
+}
+
+html {
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    background-size: cover;
+}
+
+.card_box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 359px;
+    height: 480px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.cards_img {
+    display: flex;
+    align-self: center;
+    margin-bottom: 52px;
+}
+
+.card_text {
+    max-width: 295px;
+}
+
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin: 0;
+    text-align: center;
+}
+
+.link_card {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
+}
+
+.ofp_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #222222;
+    margin-bottom: 32px;
+}
+
+.image_projects {
+    width: 100%;
+    min-width: 350px;
+    padding: 16px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.img_box {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.parent_img {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.project_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.image_dual1 {
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.image_dual2 {
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.project_item {
+    position: relative;
+    flex-grow: 1;
+}
+
+.our_finished_project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
